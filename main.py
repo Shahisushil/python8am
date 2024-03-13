@@ -40,3 +40,11 @@ data=[
 data[0].pop(1)
 data[1].pop(2)
 print(data)
+
+p= input ( "Enter p")
+t= input ("Enter t")
+r= input ("Enter r")
+p= int (p)
+t= int (t)
+r= int (r)
+print (p*t*r/100)          
